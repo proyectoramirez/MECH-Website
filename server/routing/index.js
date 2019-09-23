@@ -4,8 +4,8 @@ const loadPathsIntoRouter = require("../utils/loadPathsIntoRouter");
 const frontEnd = require("./frontend");
 
 const routes = [
-    [config.frontend_public_path, frontEnd],
-    ["/", express.static("public")]
+    ["/", express.static("public")],
+    [config.frontend_public_path, frontEnd]
 ];
 
 
