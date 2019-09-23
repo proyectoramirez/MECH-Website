@@ -35,7 +35,7 @@ export default function Nav({className}) {
         <Wrapper className={className}>
             <HeaderNavLink exact to="/">Home</HeaderNavLink>
             <HeaderNavLink to="/projects">Projects</HeaderNavLink>
-            <HeaderNavLink to="/eboard">E-board</HeaderNavLink>
+            <HeaderNavLink to="/eboard">E-Board</HeaderNavLink>
             <HeaderNavLink to="/contact">Contact Us</HeaderNavLink>
         </Wrapper>
     );

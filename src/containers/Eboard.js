@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Eboard from "components/Eboard";
 
 const members = [
@@ -46,6 +47,11 @@ const members = [
 
 export default function() {
     return (
-        <Eboard members={members} mainPicture="/eboard.jpg" />
+        <>
+            <Helmet>
+                <title>E-Board</title>
+            </Helmet>
+            <Eboard members={members} mainPicture="/eboard.jpg" />
+        </>
     );
 }

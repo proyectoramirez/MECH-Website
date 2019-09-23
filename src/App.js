@@ -10,10 +10,10 @@ export default function App() {
     return (
         <AppContainer>
             <Helmet
-                titleTemplate="%s - React.js Boilerplate"
-                defaultTitle="Works"
+                titleTemplate="%s - MECH"
+                defaultTitle="MECH"
             >
-                <meta name="description" content="A React.js Boilerplate application" />
+                <meta name="description" content="Mechanical Electrical Computer Hub Student Organization at the University of South Florida, Tampa, Florida" />
             </Helmet>
             <Header />
             <Routes />

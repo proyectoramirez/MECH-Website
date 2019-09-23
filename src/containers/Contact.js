@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Contact from "components/Contact";
 
 const contacts = [
@@ -35,6 +36,11 @@ const contacts = [
 
 export default function() {
     return (
-        <Contact contacts={contacts}/>
+        <>
+            <Helmet>
+                <title>Contact Us</title>
+            </Helmet>
+            <Contact contacts={contacts}/>
+        </>
     );
 }
