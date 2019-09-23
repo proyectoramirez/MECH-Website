@@ -1,6 +1,6 @@
 const express = require("express");
-const config = require("@/config");
-const loadPathsIntoRouter = require("@/utils/loadPathsIntoRouter");
+const config = require("../config");
+const loadPathsIntoRouter = require("../utils/loadPathsIntoRouter");
 const frontEnd = require("./frontend");
 
 const routes = [

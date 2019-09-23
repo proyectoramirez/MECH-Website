@@ -6,7 +6,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
-const config = require("@/config");
+const config = require("../../../config");
 
 module.exports = require('./webpack.base.babel')({
   mode: 'development',

@@ -1,8 +1,8 @@
 const path = require("path");
 const deepFreeze = require('deep-freeze');
-const argv = require("@/utils/argv");
-const { envName } = require("@/utils/env");
-const requireOrDefault = require("@/utils/requireOrDefault");
+const argv = require("../utils/argv");
+const { envName } = require("../utils/env");
+const requireOrDefault = require("../utils/requireOrDefault");
 
 const base = require("./config.js");
 const overrides = requireOrDefault(path.resolve(__dirname, `./config.${envName}.js`));

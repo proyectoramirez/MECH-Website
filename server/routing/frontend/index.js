@@ -1,4 +1,4 @@
-const { isDev } = require("@/utils/env");
+const { isDev } = require("../../utils/env");
 const devSetup = require("./devSetup");
 const prodSetup = require("./prodSetup");
 
