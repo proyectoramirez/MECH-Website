@@ -1,6 +1,3 @@
-//Sets up require aliases
-require('module-alias/register');
-
 const express = require("express");
 const config = require("./config");
 const routing = require("./routing");

@@ -1,6 +1,3 @@
-//Sets up require aliases
-require('module-alias/register');
-
 // Important modules this config uses
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
